@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    height: 10vh;
+    background-color: beige;
+    justify-content: center;
+    
+    div {
+        align-self: center;
+        color: cadetblue;
+        font-size: x-large;
+
+    }
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10vh;
+
+    
+    img {
+        width: 35vh;
+        height: auto;
+        padding-top: 15vh;
+        margin: 0;
+    }
+}
+.button{
+    display: flex;
+    justify-content: center;
+    button {
+        background-color:blanchedalmond;
+        font-family: 'Courier New', Courier, monospace;
+        color: cadetblue;
+    }
+}
